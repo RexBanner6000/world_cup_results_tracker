@@ -81,7 +81,7 @@ def main():
     ben_score = [0]
     tom_score = [0]
 
-    display_df = pd.DataFrame(columns=["time", "home", "away", "result", "ben_loss", "tom_loss"])
+    display_df = pd.DataFrame(columns=["time", "home", "away", "result", "ben_loss", "tom_loss", "status"])
 
     for idx, row in results_df.iterrows():
         key = "_".join([row["home_team"], row["away_team"], row["stage"]])
@@ -102,7 +102,8 @@ def main():
             row["away_team"],
             f"{row['score_home']}-{row['score_away']}",
             log_loss(ben_y, outcome),
-            log_loss(tom_y, outcome)
+            log_loss(tom_y, outcome),
+            row["status"]
         ]
 
     fig, ax = plt.subplots()
