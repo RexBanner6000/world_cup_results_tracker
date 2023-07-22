@@ -123,7 +123,7 @@ def main():
 
     st.pyplot(fig=fig)
 
-    st.dataframe(display_df.sort_values("timestamp", ascending=False))
+    st.dataframe(display_df.sort_values("time", ascending=False))
 
     print("Done!")
 
