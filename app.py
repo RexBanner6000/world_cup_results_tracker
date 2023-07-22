@@ -123,7 +123,7 @@ def main():
 
     st.pyplot(fig=fig)
 
-    display_df = display_df.sort_values("time", ascending=False)
+    display_df = display_df.sort_values("time", ascending=False).reset_index(drop=True)
 
     st.dataframe(display_df)
 
