@@ -1,0 +1,545 @@
+team1,team2,group,p_team1_win,p_team2_win,p_draw
+New Zealand,Norway,A,0.08910262612,0.7435864344,0.1673109395
+New Zealand,Philippines,A,0.7946351066,0.06157941753,0.1437854758
+New Zealand,Switzerland,A,0.3190554675,0.4379665492,0.2429779833
+Norway,Philippines,A,0.9329033849,0.008662904833,0.05843371026
+Norway,Switzerland,A,0.7002266672,0.1151787716,0.1845945612
+Philippines,Switzerland,A,0.04662158289,0.8258362382,0.1275421789
+Australia,Republic of Ireland,B,0.7568449278,0.08161097527,0.161544097
+Australia,Nigeria,B,0.8296489377,0.04489887148,0.1254521908
+Australia,Canada,B,0.5192853593,0.2476284058,0.2330862349
+Republic of Ireland,Nigeria,B,0.5095900106,0.2557527468,0.2346572426
+Republic of Ireland,Canada,B,0.1472915577,0.6513742338,0.2013342085
+Nigeria,Canada,B,0.08517126313,0.7504925883,0.1643361486
+Spain,Costa Rica,C,0.9349537099,0.008184969445,0.05686132067
+Spain,Zambia,C,0.9003292268,0.01767487052,0.0819959027
+Spain,Japan,C,0.6799635183,0.1281573051,0.1918791766
+Costa Rica,Zambia,C,0.2372003554,0.53191627,0.2308833747
+Costa Rica,Japan,C,0.03914610405,0.8427899476,0.1180639484
+Zambia,Japan,C,0.07927244481,0.7610708951,0.1596566601
+England,Haiti,D,0.9218382303,0.01143269811,0.06672907154
+England,Denmark,D,0.7722307513,0.07321396334,0.1545552854
+England,China PR,D,0.8955793436,0.01919566466,0.08522499175
+Haiti,Denmark,D,0.09576949779,0.7321161966,0.1721143056
+Haiti,China PR,D,0.2791150839,0.4823789777,0.2385059384
+Denmark,China PR,D,0.6514095701,0.147267324,0.2013231058
+USA,Vietnam,E,0.9688586653,0.00206530029,0.02907603437
+USA,Netherlands,E,0.6517378534,0.1470422561,0.2012198905
+USA,Portugal,E,0.8522220324,0.0351992357,0.1125787319
+Vietnam,Netherlands,E,0.00880853525,0.9322880774,0.05890338731
+Vietnam,Portugal,E,0.04303504925,0.8338347721,0.1231301787
+Netherlands,Portugal,E,0.6843788326,0.1252875257,0.1903336417
+France,Jamaica,F,0.9153463003,0.01320140641,0.07145229333
+France,Brazil,F,0.5784860988,0.2002711613,0.2212427399
+France,Panama,F,0.954570199,0.004212375984,0.04121742502
+Jamaica,Brazil,F,0.03547480483,0.8515511367,0.1129740585
+Jamaica,Panama,F,0.6004127544,0.1837106758,0.2158765698
+Brazil,Panama,F,0.9206983374,0.01173575748,0.06756590515
+Sweden,South Africa,G,0.8815905884,0.02395334079,0.09445607083
+Sweden,Italy,G,0.6287792969,0.1630783009,0.2081424022
+Sweden,Argentina,G,0.8122746322,0.05293808545,0.1347872824
+South Africa,Italy,G,0.07965760429,0.7603718614,0.1599705343
+South Africa,Argentina,G,0.2269973482,0.544486324,0.2285163278
+Italy,Argentina,G,0.6340671715,0.1593318742,0.2066009543
+Germany,Morocco,H,0.9193108011,0.0121090026,0.06858019634
+Germany,Colombia,H,0.8339508938,0.04298375773,0.1230653485
+Germany,Korea Republic,H,0.844246732,0.03852638893,0.1172268791
+Morocco,Colombia,H,0.1613197462,0.6312558585,0.2074243952
+Morocco,Korea Republic,H,0.1762307749,0.6105548111,0.213214414
+Colombia,Korea Republic,H,0.4004834242,0.3545761831,0.2449403927
+New Zealand,Norway,Knockout,0.1070058805,0.8929941195,0
+New Zealand,Philippines,Knockout,0.9280794523,0.0719205477,0
+New Zealand,Switzerland,Knockout,0.4214612791,0.5785387209,0
+New Zealand,Australia,Knockout,0.05427523404,0.945724766,0
+New Zealand,Republic of Ireland,Knockout,0.3473543423,0.6526456577,0
+New Zealand,Nigeria,Knockout,0.5146723939,0.4853276061,0
+New Zealand,Canada,Knockout,0.1074210073,0.8925789927,0
+New Zealand,Spain,Knockout,0.02079894503,0.979201055,0
+New Zealand,Costa Rica,Knockout,0.7081390161,0.2918609839,0
+New Zealand,Zambia,Knockout,0.5196852931,0.4803147069,0
+New Zealand,Japan,Knockout,0.1012825977,0.8987174023,0
+New Zealand,England,Knockout,0.0175713771,0.9824286229,0
+New Zealand,Haiti,Knockout,0.5905249303,0.4094750697,0
+New Zealand,Denmark,Knockout,0.1587098161,0.8412901839,0
+New Zealand,China PR,Knockout,0.4548805594,0.5451194406,0
+New Zealand,USA,Knockout,0.01209023779,0.9879097622,0
+New Zealand,Vietnam,Knockout,0.8516561636,0.1483438364,0
+New Zealand,Netherlands,Knockout,0.05145260745,0.9485473925,0
+New Zealand,Portugal,Knockout,0.2285758407,0.7714241593,0
+New Zealand,France,Knockout,0.02655233821,0.9734476618,0
+New Zealand,Jamaica,Knockout,0.6541321989,0.3458678011,0
+New Zealand,Brazil,Knockout,0.07303452908,0.9269654709,0
+New Zealand,Panama,Knockout,0.8607469866,0.1392530134,0
+New Zealand,Sweden,Knockout,0.05956169834,0.9404383017,0
+New Zealand,South Africa,Knockout,0.6997875999,0.3002124001,0
+New Zealand,Italy,Knockout,0.1962682117,0.8037317883,0
+New Zealand,Argentina,Knockout,0.4928460246,0.5071539754,0
+New Zealand,Germany,Knockout,0.03225376108,0.9677462389,0
+New Zealand,Morocco,Knockout,0.7167383504,0.2832616496,0
+New Zealand,Colombia,Knockout,0.3926985454,0.6073014546,0
+New Zealand,Korea Republic,Knockout,0.4220816325,0.5779183675,0
+Norway,Philippines,Knockout,0.9907994743,0.009200525685,0
+Norway,Switzerland,Knockout,0.8587466233,0.1412533767,0
+Norway,Australia,Knockout,0.3238384275,0.6761615725,0
+Norway,Republic of Ireland,Knockout,0.8162294114,0.1837705886,0
+Norway,Nigeria,Knockout,0.8984758052,0.1015241948,0
+Norway,Canada,Knockout,0.5010842357,0.4989157643,0
+Norway,Spain,Knockout,0.1505698625,0.8494301375,0
+Norway,Costa Rica,Knockout,0.9529368815,0.04706311847,0
+Norway,Zambia,Knockout,0.9002924361,0.09970756388,0
+Norway,Japan,Knockout,0.4846653539,0.5153346461,0
+Norway,England,Knockout,0.1298754768,0.8701245232,0
+Norway,Haiti,Knockout,0.923284386,0.07671561405,0
+Norway,Denmark,Knockout,0.6115511355,0.3884488645,0
+Norway,China PR,Knockout,0.8744318975,0.1255681025,0
+Norway,USA,Knockout,0.09266702376,0.9073329762,0
+Norway,Vietnam,Knockout,0.9795547247,0.02044527528,0
+Norway,Netherlands,Knockout,0.3116161614,0.6883838386,0
+Norway,Portugal,Knockout,0.7120427464,0.2879572536,0
+Norway,France,Knockout,0.1854228814,0.8145771186,0
+Norway,Jamaica,Knockout,0.9404167733,0.05958322666,0
+Norway,Brazil,Knockout,0.3966871903,0.6033128097,0
+Norway,Panama,Knockout,0.980982673,0.01901732698,0
+Norway,Sweden,Knockout,0.3457808672,0.6542191328,0
+Norway,South Africa,Knockout,0.9511065586,0.04889344141,0
+Norway,Italy,Knockout,0.6708236673,0.3291763327,0
+Norway,Argentina,Knockout,0.8902286086,0.1097713914,0
+Norway,Germany,Knockout,0.2176116734,0.7823883266,0
+Norway,Morocco,Knockout,0.954784082,0.04521591805,0
+Norway,Colombia,Knockout,0.843659567,0.156340433,0
+Norway,Korea Republic,Knockout,0.8590548924,0.1409451076,0
+Philippines,Switzerland,Knockout,0.05343706224,0.9465629378,0
+Philippines,Australia,Knockout,0.004427693793,0.9955723062,0
+Philippines,Republic of Ireland,Knockout,0.03961051637,0.9603894836,0
+Philippines,Nigeria,Knockout,0.07593891514,0.9240610849,0
+Philippines,Canada,Knockout,0.00924014505,0.9907598549,0
+Philippines,Spain,Knockout,0.001643323212,0.9983566768,0
+Philippines,Costa Rica,Knockout,0.1582652495,0.8417347505,0
+Philippines,Zambia,Knockout,0.07735970229,0.9226402977,0
+Philippines,Japan,Knockout,0.008657712127,0.9913422879,0
+Philippines,England,Knockout,0.001384111549,0.9986158885,0
+Philippines,Haiti,Knockout,0.1005236707,0.8994763293,0
+Philippines,Denmark,Knockout,0.01440862994,0.9855913701,0
+Philippines,China PR,Knockout,0.06073797368,0.9392620263,0
+Philippines,USA,Knockout,0.0009474879825,0.999052512,0
+Philippines,Vietnam,Knockout,0.3079106852,0.6920893148,0
+Philippines,Netherlands,Knockout,0.004185953794,0.9958140462,0
+Philippines,Portugal,Knockout,0.02244633937,0.9775536606,0
+Philippines,France,Knockout,0.002109312679,0.9978906873,0
+Philippines,Jamaica,Knockout,0.127827838,0.872172162,0
+Philippines,Brazil,Knockout,0.006068605596,0.9939313944,0
+Philippines,Panama,Knockout,0.3238691036,0.6761308964,0
+Philippines,Sweden,Knockout,0.004884029618,0.9951159704,0
+Philippines,South Africa,Knockout,0.1529992314,0.8470007686,0
+Philippines,Italy,Knockout,0.01857226935,0.9814277306,0
+Philippines,Argentina,Knockout,0.07003360879,0.9299663912,0
+Philippines,Germany,Knockout,0.00257612221,0.9974238778,0
+Philippines,Morocco,Knockout,0.163937856,0.836062144,0
+Philippines,Colombia,Knockout,0.04771864269,0.9522813573,0
+Philippines,Korea Republic,Knockout,0.05356587175,0.9464341283,0
+Switzerland,Australia,Knockout,0.07302627014,0.9269737299,0
+Switzerland,Republic of Ireland,Knockout,0.4221603091,0.5778396909,0
+Switzerland,Nigeria,Knockout,0.5927834384,0.4072165616,0
+Switzerland,Canada,Knockout,0.1417802714,0.8582197286,0
+Switzerland,Spain,Knockout,0.02833103978,0.9716689602,0
+Switzerland,Costa Rica,Knockout,0.7690829698,0.2309170302,0
+Switzerland,Zambia,Knockout,0.5976203074,0.4023796926,0
+Switzerland,Japan,Knockout,0.133973155,0.866026845,0
+Switzerland,England,Knockout,0.02396324967,0.9760367503,0
+Switzerland,Haiti,Knockout,0.6643886278,0.3356113722,0
+Switzerland,Denmark,Knockout,0.2056935998,0.7943064002,0
+Switzerland,China PR,Knockout,0.5338997927,0.4661002073,0
+Switzerland,USA,Knockout,0.0165217885,0.9834782115,0
+Switzerland,Vietnam,Knockout,0.8873973549,0.1126026451,0
+Switzerland,Netherlands,Knockout,0.06929993809,0.9307000619,0
+Switzerland,Portugal,Knockout,0.289134198,0.710865802,0
+Switzerland,France,Knockout,0.036091163,0.963908837,0
+Switzerland,Jamaica,Knockout,0.7219250041,0.2780749959,0
+Switzerland,Brazil,Knockout,0.09759770744,0.9024022926,0
+Switzerland,Panama,Knockout,0.8945690305,0.1054309695,0
+Switzerland,Sweden,Knockout,0.07998463966,0.9200153603,0
+Switzerland,South Africa,Knockout,0.7618890508,0.2381109492,0
+Switzerland,Italy,Knockout,0.251052671,0.748947329,0
+Switzerland,Argentina,Knockout,0.571545541,0.428454459,0
+Switzerland,Germany,Knockout,0.04374874901,0.956251251,0
+Switzerland,Morocco,Knockout,0.7764535143,0.2235464857,0
+Switzerland,Colombia,Knockout,0.4702338716,0.5297661284,0
+Switzerland,Korea Republic,Knockout,0.5006359197,0.4993640803,0
+Australia,Republic of Ireland,Knockout,0.9026651551,0.09733484489,0
+Australia,Nigeria,Knockout,0.9486604723,0.05133952771,0
+Australia,Canada,Knockout,0.6771104953,0.3228895047,0
+Australia,Spain,Knockout,0.2701323544,0.7298676456,0
+Australia,Costa Rica,Knockout,0.9768931094,0.02310689058,0
+Australia,Zambia,Knockout,0.949629463,0.05037053703,0
+Australia,Japan,Knockout,0.6625837251,0.3374162749,0
+Australia,England,Knockout,0.2376017939,0.7623982061,0
+Australia,Haiti,Knockout,0.9617282311,0.03827176893,0
+Australia,Denmark,Knockout,0.7667454255,0.2332545745,0
+Australia,China PR,Knockout,0.9356505397,0.06434946035,0
+Australia,USA,Knockout,0.1757647587,0.8242352413,0
+Australia,Vietnam,Knockout,0.9901025722,0.009897427839,0
+Australia,Netherlands,Knockout,0.4859069689,0.5140930311,0
+Australia,Portugal,Knockout,0.8377407407,0.1622592593,0
+Australia,France,Knockout,0.3221644244,0.6778355756,0
+Australia,Jamaica,Knockout,0.9705490679,0.02945093214,0
+Australia,Brazil,Knockout,0.5785684677,0.4214315323,0
+Australia,Panama,Knockout,0.9908007513,0.00919924872,0
+Australia,Sweden,Knockout,0.5246176368,0.4753823632,0
+Australia,South Africa,Knockout,0.9759709707,0.0240290293,0
+Australia,Italy,Knockout,0.8097058634,0.1902941366,0
+Australia,Argentina,Knockout,0.9442369512,0.05576304884,0
+Australia,Germany,Knockout,0.3673849971,0.6326150029,0
+Australia,Morocco,Knockout,0.9778219249,0.02217807514,0
+Australia,Colombia,Knockout,0.9184821543,0.08151784572,0
+Australia,Korea Republic,Knockout,0.9271457334,0.0728542666,0
+Republic of Ireland,Nigeria,Knockout,0.6658324073,0.3341675927,0
+Republic of Ireland,Canada,Knockout,0.1844220189,0.8155779811,0
+Republic of Ireland,Spain,Knockout,0.03837767767,0.9616223223,0
+Republic of Ireland,Costa Rica,Knockout,0.8201039247,0.1798960753,0
+Republic of Ireland,Zambia,Knockout,0.6702842199,0.3297157801,0
+Republic of Ireland,Japan,Knockout,0.1747449359,0.8252550641,0
+Republic of Ireland,England,Knockout,0.03251282666,0.9674871733,0
+Republic of Ireland,Haiti,Knockout,0.7304338304,0.2695661696,0
+Republic of Ireland,Denmark,Knockout,0.2616963666,0.7383036334,0
+Republic of Ireland,China PR,Knockout,0.6105723922,0.3894276078,0
+Republic of Ireland,USA,Knockout,0.02247755273,0.9775224473,0
+Republic of Ireland,Vietnam,Knockout,0.915160561,0.08483943899,0
+Republic of Ireland,Netherlands,Knockout,0.09249187744,0.9075081226,0
+Republic of Ireland,Portugal,Knockout,0.3576263596,0.6423736404,0
+Republic of Ireland,France,Knockout,0.04875159479,0.9512484052,0
+Republic of Ireland,Jamaica,Knockout,0.7803902096,0.2196097904,0
+Republic of Ireland,Brazil,Knockout,0.1289477073,0.8710522927,0
+Republic of Ireland,Panama,Knockout,0.9207219654,0.07927803458,0
+Republic of Ireland,Sweden,Knockout,0.1063437524,0.8936562476,0
+Republic of Ireland,South Africa,Knockout,0.8141153225,0.1858846775,0
+Republic of Ireland,Italy,Knockout,0.3145150662,0.6854849338,0
+Republic of Ireland,Argentina,Knockout,0.6461299917,0.3538700083,0
+Republic of Ireland,Germany,Knockout,0.05893115958,0.9410688404,0
+Republic of Ireland,Morocco,Knockout,0.8262139408,0.1737860592,0
+Republic of Ireland,Colombia,Knockout,0.5485232735,0.4514767265,0
+Republic of Ireland,Korea Republic,Knockout,0.5784600755,0.4215399245,0
+Nigeria,Canada,Knockout,0.1019204827,0.8980795173,0
+Nigeria,Spain,Knockout,0.01963634961,0.9803636504,0
+Nigeria,Costa Rica,Knockout,0.6958591575,0.3041408425,0
+Nigeria,Zambia,Knockout,0.5050186974,0.4949813026,0
+Nigeria,Japan,Knockout,0.09606256402,0.903937436,0
+Nigeria,England,Knockout,0.01658613667,0.9834138633,0
+Nigeria,Haiti,Knockout,0.5762576835,0.4237423165,0
+Nigeria,Denmark,Knockout,0.1510274047,0.8489725953,0
+Nigeria,China PR,Knockout,0.4403660786,0.5596339214,0
+Nigeria,USA,Knockout,0.01140876001,0.98859124,0
+Nigeria,Vietnam,Knockout,0.8440851894,0.1559148106,0
+Nigeria,Netherlands,Knockout,0.04866171912,0.9513382809,0
+Nigeria,Portugal,Knockout,0.2183894379,0.7816105621,0
+Nigeria,France,Knockout,0.02507638204,0.974923618,0
+Nigeria,Jamaica,Knockout,0.6407328679,0.3592671321,0
+Nigeria,Brazil,Knockout,0.06915834726,0.9308416527,0
+Nigeria,Panama,Knockout,0.8535602002,0.1464397998,0
+Nigeria,Sweden,Knockout,0.05635709078,0.9436429092,0
+Nigeria,South Africa,Knockout,0.6873115177,0.3126884823,0
+Nigeria,Italy,Knockout,0.1871722507,0.8128277493,0
+Nigeria,Argentina,Knockout,0.478182791,0.521817209,0
+Nigeria,Germany,Knockout,0.03047080208,0.9695291979,0
+Nigeria,Morocco,Knockout,0.7046694091,0.2953305909,0
+Nigeria,Colombia,Knockout,0.378789472,0.621210528,0
+Nigeria,Korea Republic,Knockout,0.4078307283,0.5921692717,0
+Canada,Spain,Knockout,0.150016013,0.849983987,0
+Canada,Costa Rica,Knockout,0.9527419947,0.04725800529,0
+Canada,Zambia,Knockout,0.8999024492,0.1000975508,0
+Canada,Japan,Knockout,0.4835822101,0.5164177899,0
+Canada,England,Knockout,0.1293861538,0.8706138462,0
+Canada,Haiti,Knockout,0.9229766339,0.07702336609,0
+Canada,Denmark,Knockout,0.6105203686,0.3894796314,0
+Canada,China PR,Knockout,0.8739549234,0.1260450766,0
+Canada,USA,Knockout,0.09230301732,0.9076969827,0
+Canada,Vietnam,Knockout,0.9794676866,0.02053231341,0
+Canada,Netherlands,Knockout,0.3106865966,0.6893134034,0
+Canada,Portugal,Knockout,0.7111526904,0.2888473096,0
+Canada,France,Knockout,0.1847687167,0.8152312833,0
+Canada,Jamaica,Knockout,0.9401732961,0.05982670392,0
+Canada,Brazil,Knockout,0.39564971,0.60435029,0
+Canada,Panama,Knockout,0.9809015953,0.01909840467,0
+Canada,Sweden,Knockout,0.3448004351,0.6551995649,0
+Canada,South Africa,Knockout,0.9509044829,0.04909551705,0
+Canada,Italy,Knockout,0.6698652767,0.3301347233,0
+Canada,Argentina,Knockout,0.889804077,0.110195923,0
+Canada,Germany,Knockout,0.2168741824,0.7831258176,0
+Canada,Morocco,Knockout,0.9545964799,0.04540352013,0
+Canada,Colombia,Knockout,0.8430866786,0.1569133214,0
+Canada,Korea Republic,Knockout,0.8585289582,0.1414710418,0
+Spain,Costa Rica,Knockout,0.9913215632,0.008678436824,0
+Spain,Zambia,Knockout,0.9807464143,0.01925358565,0
+Spain,Japan,Knockout,0.841413188,0.158586812,0
+Spain,England,Knockout,0.4571251297,0.5428748703,0
+Spain,Haiti,Knockout,0.9854852753,0.01451472468,0
+Spain,Denmark,Knockout,0.8988012527,0.1011987473,0
+Spain,China PR,Knockout,0.9751773951,0.02482260486,0
+Spain,USA,Knockout,0.3655493296,0.6344506704,0
+Spain,Vietnam,Knockout,0.9963138685,0.003686131486,0
+Spain,Netherlands,Knockout,0.7186073565,0.2813926435,0
+Spain,Portugal,Knockout,0.9331094262,0.06689057376,0
+Spain,France,Knockout,0.5622032002,0.4377967998,0
+Spain,Jamaica,Knockout,0.9888938454,0.01110615458,0
+Spain,Brazil,Knockout,0.7876554802,0.2123445198,0
+Spain,Panama,Knockout,0.9965754091,0.003424590851,0
+Spain,Sweden,Knockout,0.748852459,0.251147541,0
+Spain,South Africa,Knockout,0.9909699057,0.00903009427,0
+Spain,Italy,Knockout,0.919978228,0.08002177196,0
+Spain,Argentina,Knockout,0.9786101506,0.0213898494,0
+Spain,Germany,Knockout,0.6107579832,0.3892420168,0
+Spain,Morocco,Knockout,0.991675348,0.008324652023,0
+Spain,Colombia,Knockout,0.9681962834,0.03180371656,0
+Spain,Korea Republic,Knockout,0.9717388997,0.02826110031,0
+Costa Rica,Zambia,Knockout,0.3084062255,0.6915937745,0
+Costa Rica,Japan,Knockout,0.04438655612,0.9556134439,0
+Costa Rica,England,Knockout,0.007317666355,0.9926823336,0
+Costa Rica,Haiti,Knockout,0.3727991582,0.6272008418,0
+Costa Rica,Denmark,Knockout,0.07214336006,0.9278566399,0
+Costa Rica,China PR,Knockout,0.2559106297,0.7440893703,0
+Costa Rica,USA,Knockout,0.005018685825,0.9949813142,0
+Costa Rica,Vietnam,Knockout,0.7029295306,0.2970704694,0
+Costa Rica,Netherlands,Knockout,0.02186771802,0.978132282,0
+Costa Rica,Portugal,Knockout,0.10883146,0.89116854,0
+Costa Rica,France,Knockout,0.01111712629,0.9888828737,0
+Costa Rica,Jamaica,Knockout,0.4380425772,0.5619574228,0
+Costa Rica,Brazil,Knockout,0.03145165467,0.9685483453,0
+Costa Rica,Panama,Knockout,0.718117981,0.281882019,0
+Costa Rica,Sweden,Knockout,0.02543918699,0.974560813,0
+Costa Rica,South Africa,Knockout,0.489982295,0.510017705,0
+Costa Rica,Italy,Knockout,0.09144262734,0.9085573727,0
+Costa Rica,Argentina,Knockout,0.2859817197,0.7140182803,0
+Costa Rica,Germany,Knockout,0.01355037467,0.9864496253,0
+Costa Rica,Morocco,Knockout,0.5104927107,0.4895072893,0
+Costa Rica,Colombia,Knockout,0.2104282684,0.7895717316,0
+Costa Rica,Korea Republic,Knockout,0.2313690826,0.7686309174,0
+Zambia,Japan,Knockout,0.09433340046,0.9056665995,0
+Zambia,England,Knockout,0.01626184313,0.9837381569,0
+Zambia,Haiti,Knockout,0.57134821,0.42865179,0
+Zambia,Denmark,Knockout,0.1484713593,0.8515286407,0
+Zambia,China PR,Knockout,0.4354246868,0.5645753132,0
+Zambia,USA,Knockout,0.01118454368,0.9888154563,0
+Zambia,Vietnam,Knockout,0.841424863,0.158575137,0
+Zambia,Netherlands,Knockout,0.04774072637,0.9522592736,0
+Zambia,Portugal,Knockout,0.2149820249,0.7850179751,0
+Zambia,France,Knockout,0.02459023737,0.9754097626,0
+Zambia,Jamaica,Knockout,0.6360986742,0.3639013258,0
+Zambia,Brazil,Knockout,0.06787710477,0.9321228952,0
+Zambia,Panama,Knockout,0.851033011,0.148966989,0
+Zambia,Sweden,Knockout,0.05529891814,0.9447010819,0
+Zambia,South Africa,Knockout,0.6829808722,0.3170191278,0
+Zambia,Italy,Knockout,0.1841371566,0.8158628434,0
+Zambia,Argentina,Knockout,0.4731758419,0.5268241581,0
+Zambia,Germany,Knockout,0.02988328375,0.9701167163,0
+Zambia,Morocco,Knockout,0.7004743999,0.2995256001,0
+Zambia,Colombia,Knockout,0.3740771795,0.6259228205,0
+Zambia,Korea Republic,Knockout,0.4029915236,0.5970084764,0
+Japan,England,Knockout,0.1369682441,0.8630317559,0
+Japan,Haiti,Knockout,0.9275190701,0.07248092988,0
+Japan,Denmark,Knockout,0.62602348,0.37397652,0
+Japan,China PR,Knockout,0.8810157091,0.1189842909,0
+Japan,USA,Knockout,0.09795652183,0.9020434782,0
+Japan,Vietnam,Knockout,0.9807480665,0.01925193353,0
+Japan,Netherlands,Knockout,0.3249278137,0.6750721863,0
+Japan,Portugal,Knockout,0.7244580015,0.2755419985,0
+Japan,France,Knockout,0.1948698225,0.8051301775,0
+Japan,Jamaica,Knockout,0.9437633559,0.05623664412,0
+Japan,Brazil,Knockout,0.4114607578,0.5885392422,0
+Japan,Panama,Knockout,0.9820941924,0.01790580763,0
+Japan,Sweden,Knockout,0.3597891774,0.6402108226,0
+Japan,South Africa,Knockout,0.953882177,0.04611782304,0
+Japan,Italy,Knockout,0.6842279577,0.3157720423,0
+Japan,Argentina,Knockout,0.8960825939,0.1039174061,0
+Japan,Germany,Knockout,0.2282390667,0.7717609333,0
+Japan,Morocco,Knockout,0.9573602914,0.04263970856,0
+Japan,Colombia,Knockout,0.8515829874,0.1484170126,0
+Japan,Korea Republic,Knockout,0.8663216991,0.1336783009,0
+England,Haiti,Knockout,0.9877498615,0.01225013848,0
+England,Denmark,Knockout,0.9134018321,0.08659816789,0
+England,China PR,Knockout,0.9790159717,0.0209840283,0
+England,USA,Knockout,0.4062627866,0.5937372134,0
+England,Vietnam,Knockout,0.9968943027,0.00310569726,0
+England,Netherlands,Knockout,0.7520332366,0.2479667634,0
+England,Portugal,Knockout,0.9430736532,0.05692634683,0
+England,France,Knockout,0.6039689488,0.3960310512,0
+England,Jamaica,Knockout,0.9906316823,0.009368317723,0
+England,Brazil,Knockout,0.8149909746,0.1850090254,0
+England,Panama,Knockout,0.9971147793,0.002885220683,0
+England,Sweden,Knockout,0.7797865788,0.2202134212,0
+England,South Africa,Knockout,0.9923853922,0.007614607797,0
+England,Italy,Knockout,0.9317554588,0.06824454116,0
+England,Argentina,Knockout,0.9819277224,0.01807227764,0
+England,Germany,Knockout,0.6507690058,0.3492309942,0
+England,Morocco,Knockout,0.9929810381,0.007018961895,0
+England,Colombia,Knockout,0.9730846252,0.0269153748,0
+England,Korea Republic,Knockout,0.9760961725,0.02390382749,0
+Haiti,Denmark,Knockout,0.1156796143,0.8843203857,0
+Haiti,China PR,Knockout,0.3665361268,0.6334638732,0
+Haiti,USA,Knockout,0.008414666122,0.9915853339,0
+Haiti,Vietnam,Knockout,0.7992340855,0.2007659145,0
+Haiti,Netherlands,Knockout,0.03624951432,0.9637504857,0
+Haiti,Portugal,Knockout,0.1704408451,0.8295591549,0
+Haiti,France,Knockout,0.01856273386,0.9814372661,0
+Haiti,Jamaica,Knockout,0.5673671096,0.4326328904,0
+Haiti,Brazil,Knockout,0.05180272521,0.9481972748,0
+Haiti,Panama,Knockout,0.8108238519,0.1891761481,0
+Haiti,Sweden,Knockout,0.04206881737,0.9579311826,0
+Haiti,South Africa,Knockout,0.6177834842,0.3822165158,0
+Haiti,Italy,Knockout,0.1448077498,0.8551922502,0
+Haiti,Argentina,Knockout,0.4025734731,0.5974265269,0
+Haiti,Germany,Knockout,0.02258840611,0.9774115939,0
+Haiti,Morocco,Knockout,0.6369623479,0.3630376521,0
+Haiti,Colombia,Knockout,0.309572454,0.690427546,0
+Haiti,Korea Republic,Knockout,0.3361787897,0.6638212103,0
+Denmark,China PR,Knockout,0.8156108871,0.1843891129,0
+Denmark,USA,Knockout,0.06092030238,0.9390796976,0
+Denmark,Vietnam,Knockout,0.9681857375,0.03181426249,0
+Denmark,Netherlands,Knockout,0.2233219529,0.7766780471,0
+Denmark,Portugal,Knockout,0.6109931668,0.3890068332,0
+Denmark,France,Knockout,0.1263231703,0.8736768297,0
+Denmark,Jamaica,Knockout,0.9092995298,0.09070047025,0
+Denmark,Brazil,Knockout,0.2946045086,0.7053954914,0
+Denmark,Panama,Knockout,0.9703837165,0.02961628346,0
+Denmark,Sweden,Knockout,0.2513407871,0.7486592129,0
+Denmark,South Africa,Knockout,0.9251275627,0.07487243732,0
+Denmark,Italy,Knockout,0.564163198,0.435836802,0
+Denmark,Argentina,Knockout,0.8374316764,0.1625683236,0
+Denmark,Germany,Knockout,0.1501434914,0.8498565086,0
+Denmark,Morocco,Knockout,0.9306165523,0.06938344773,0
+Denmark,Colombia,Knockout,0.7741467718,0.2258532282,0
+Denmark,Korea Republic,Knockout,0.7947216851,0.2052783149,0
+China PR,USA,Knockout,0.01445402325,0.9855459767,0
+China PR,Vietnam,Knockout,0.8730966108,0.1269033892,0
+China PR,Netherlands,Knockout,0.06103672911,0.9389632709,0
+China PR,Portugal,Knockout,0.2620384929,0.7379615071,0
+China PR,France,Knockout,0.03165304183,0.9683469582,0
+China PR,Jamaica,Knockout,0.69385898,0.30614102,0
+China PR,Brazil,Knockout,0.08627309589,0.9137269041,0
+China PR,Panama,Knockout,0.8810570205,0.1189429795,0
+China PR,Sweden,Knockout,0.07054397163,0.9294560284,0
+China PR,South Africa,Knockout,0.7363837015,0.2636162985,0
+China PR,Italy,Knockout,0.2263891731,0.7736108269,0
+China PR,Argentina,Knockout,0.5380145471,0.4619854529,0
+China PR,Germany,Knockout,0.03840649609,0.9615935039,0
+China PR,Morocco,Knockout,0.7520004282,0.2479995718,0
+China PR,Colombia,Knockout,0.4365900183,0.5634099817,0
+China PR,Korea Republic,Knockout,0.4667332584,0.5332667416,0
+USA,Vietnam,Knockout,0.9978728506,0.002127149358,0
+USA,Netherlands,Knockout,0.8159164777,0.1840835223,0
+USA,Portugal,Knockout,0.9603353706,0.03966462937,0
+USA,France,Knockout,0.6902881519,0.3097118481,0
+USA,Jamaica,Knockout,0.9935707404,0.006429259638,0
+USA,Brazil,Knockout,0.865554222,0.134445778,0
+USA,Panama,Knockout,0.9980239968,0.001976003186,0
+USA,Sweden,Knockout,0.8380594441,0.1619405559,0
+USA,South Africa,Knockout,0.9947771716,0.005222828436,0
+USA,Italy,Knockout,0.9522755032,0.04772449681,0
+USA,Argentina,Knockout,0.9875631324,0.01243686758,0
+USA,Germany,Knockout,0.7314236842,0.2685763158,0
+USA,Morocco,Knockout,0.9951866301,0.004813369874,0
+USA,Colombia,Knockout,0.9814253825,0.01857461754,0
+USA,Korea Republic,Knockout,0.9835194925,0.0164805075,0
+Vietnam,Netherlands,Knockout,0.009359862878,0.9906401371,0
+Vietnam,Portugal,Knockout,0.04907803668,0.9509219633,0
+Vietnam,France,Knockout,0.004728646859,0.9952713531,0
+Vietnam,Jamaica,Knockout,0.2477968386,0.7522031614,0
+Vietnam,Brazil,Knockout,0.01353786898,0.986462131,0
+Vietnam,Panama,Knockout,0.5184561107,0.4815438893,0
+Vietnam,Sweden,Knockout,0.0109113179,0.9890886821,0
+Vietnam,South Africa,Knockout,0.2887703891,0.7112296109,0
+Vietnam,Italy,Knockout,0.04079937278,0.9592006272,0
+Vietnam,Argentina,Knockout,0.1447645802,0.8552354198,0
+Vietnam,Germany,Knockout,0.005771785312,0.9942282147,0
+Vietnam,Morocco,Knockout,0.3059100923,0.6940899077,0
+Vietnam,Colombia,Knockout,0.1012298983,0.8987701017,0
+Vietnam,Korea Republic,Knockout,0.1128570685,0.8871429315,0
+Netherlands,Portugal,Knockout,0.8452603045,0.1547396955,0
+Netherlands,France,Knockout,0.3345993188,0.6654006812,0
+Netherlands,Jamaica,Knockout,0.9721187476,0.0278812524,0
+Netherlands,Brazil,Knockout,0.5922529041,0.4077470959,0
+Netherlands,Panama,Knockout,0.9913007288,0.008699271203,0
+Netherlands,Sweden,Knockout,0.5386570217,0.4613429783,0
+Netherlands,South Africa,Knockout,0.9772584443,0.02274155565,0
+Netherlands,Italy,Knockout,0.8182427649,0.1817572351,0
+Netherlands,Argentina,Knockout,0.9471326274,0.05286737263,0
+Netherlands,Germany,Knockout,0.3805853091,0.6194146909,0
+Netherlands,Morocco,Knockout,0.9790123572,0.02098764281,0
+Netherlands,Colombia,Knockout,0.9226056113,0.07739438867,0
+Netherlands,Korea Republic,Knockout,0.9308639432,0.06913605683,0
+Portugal,France,Knockout,0.08429621673,0.9157037833,0
+Portugal,Jamaica,Knockout,0.8645519411,0.1354480589,0
+Portugal,Brazil,Knockout,0.2100517208,0.7899482792,0
+Portugal,Panama,Knockout,0.9542563073,0.04574369267,0
+Portugal,Sweden,Knockout,0.1761049515,0.8238950485,0
+Portugal,South Africa,Knockout,0.8872202979,0.1127797021,0
+Portugal,Italy,Knockout,0.4517968832,0.5482031168,0
+Portugal,Argentina,Knockout,0.7663388503,0.2336611497,0
+Portugal,Germany,Knockout,0.1011087907,0.8988912093,0
+Portugal,Morocco,Knockout,0.8951734225,0.1048265775,0
+Portugal,Colombia,Knockout,0.6857635716,0.3142364284,0
+Portugal,Korea Republic,Knockout,0.7113883383,0.2886116617,0
+France,Jamaica,Knockout,0.9857827376,0.01421726241,0
+France,Brazil,Knockout,0.742832367,0.257167633,0
+France,Panama,Knockout,0.9956065368,0.004393463225,0
+France,Sweden,Knockout,0.6989689543,0.3010310457,0
+France,South Africa,Knockout,0.9884335515,0.01156644848,0
+France,Italy,Knockout,0.8995236331,0.1004763669,0
+France,Argentina,Knockout,0.9726978592,0.02730214076,0
+France,Germany,Knockout,0.5499307755,0.4500692245,0
+France,Morocco,Knockout,0.9893350045,0.01066499553,0
+France,Colombia,Knockout,0.9595245859,0.04047541412,0
+France,Korea Republic,Knockout,0.9639972237,0.03600277631,0
+Jamaica,Brazil,Knockout,0.03999297333,0.9600070267,0
+Jamaica,Panama,Knockout,0.7657120439,0.2342879561,0
+Jamaica,Sweden,Knockout,0.03240232588,0.9675976741,0
+Jamaica,South Africa,Knockout,0.5520689887,0.4479310113,0
+Jamaica,Italy,Knockout,0.1143521882,0.8856478118,0
+Jamaica,Argentina,Knockout,0.3394220759,0.6605779241,0
+Jamaica,Germany,Knockout,0.01731716708,0.9826828329,0
+Jamaica,Morocco,Knockout,0.5722622224,0.4277377776,0
+Jamaica,Colombia,Knockout,0.2547881953,0.7452118047,0
+Jamaica,Korea Republic,Knockout,0.278585926,0.721414074,0
+Brazil,Panama,Knockout,0.9874138478,0.01258615225,0
+Brazil,Sweden,Knockout,0.4456285143,0.5543714857,0
+Brazil,South Africa,Knockout,0.9673043336,0.03269566641,0
+Brazil,Italy,Knockout,0.7560603828,0.2439396172,0
+Brazil,Argentina,Knockout,0.9250041976,0.07499580238,0
+Brazil,Germany,Knockout,0.2972659631,0.7027340369,0
+Brazil,Morocco,Knockout,0.969802222,0.030197778,0
+Brazil,Colombia,Knockout,0.8913882949,0.1086117051,0
+Brazil,Korea Republic,Knockout,0.9026260914,0.09737390865,0
+Panama,Sweden,Knockout,0.01014235013,0.9898576499,0
+Panama,South Africa,Knockout,0.2738409814,0.7261590186,0
+Panama,Italy,Knockout,0.03800499907,0.9619950009,0
+Panama,Argentina,Knockout,0.1358581113,0.8641418887,0
+Panama,Germany,Knockout,0.005363058679,0.9946369413,0
+Panama,Morocco,Knockout,0.2904564431,0.7095435569,0
+Panama,Colombia,Knockout,0.09470525185,0.9052947482,0
+Panama,Korea Republic,Knockout,0.1056711183,0.8943288817,0
+Sweden,South Africa,Knockout,0.9735481184,0.02645188159,0
+Sweden,Italy,Knockout,0.7940560255,0.2059439745,0
+Sweden,Argentina,Knockout,0.9388149476,0.06118505238,0
+Sweden,Germany,Knockout,0.3447941427,0.6552058573,0
+Sweden,Morocco,Knockout,0.9755810351,0.0244189649,0
+Sweden,Colombia,Knockout,0.9107925243,0.08920747569,0
+Sweden,Korea Republic,Knockout,0.9202023425,0.0797976575,0
+South Africa,Italy,Knockout,0.09482715493,0.9051728451,0
+South Africa,Argentina,Knockout,0.2942348054,0.7057651946,0
+South Africa,Germany,Knockout,0.01409663982,0.9859033602,0
+South Africa,Morocco,Knockout,0.5205017956,0.4794982044,0
+South Africa,Colombia,Knockout,0.2171641221,0.7828358779,0
+South Africa,Korea Republic,Knockout,0.238572716,0.761427284,0
+Italy,Argentina,Knockout,0.7991781374,0.2008218626,0
+Italy,Germany,Knockout,0.1200927886,0.8799072114,0
+Italy,Morocco,Knockout,0.911985562,0.08801443795,0
+Italy,Colombia,Knockout,0.7258763548,0.2741236452,0
+Italy,Korea Republic,Knockout,0.7494253021,0.2505746979,0
+Argentina,Germany,Knockout,0.03315907994,0.9668409201,0
+Argentina,Morocco,Knockout,0.7225122684,0.2774877316,0
+Argentina,Colombia,Knockout,0.399544068,0.600455932,0
+Argentina,Korea Republic,Knockout,0.4290774716,0.5709225284,0
+Germany,Morocco,Knockout,0.9869994147,0.01300058529,0
+Germany,Colombia,Knockout,0.9509840811,0.04901591886,0
+Germany,Korea Republic,Knockout,0.9563575419,0.04364245809,0
+Morocco,Colombia,Knockout,0.2035386217,0.7964613783,0
+Morocco,Korea Republic,Knockout,0.2239883115,0.7760116885,0
+Colombia,Korea Republic,Knockout,0.5303997463,0.4696002537,0
