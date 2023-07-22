@@ -122,9 +122,6 @@ def main():
     st.text(f"Tom: {tom_score[-1]:.3f}")
 
     st.pyplot(fig=fig)
-
-    display_df = display_df.sort_values("time", ascending=False).reset_index(drop=True)
-
     st.dataframe(display_df)
 
     print("Done!")
