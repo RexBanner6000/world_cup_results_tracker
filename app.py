@@ -84,6 +84,9 @@ def main():
     display_df = pd.DataFrame(columns=["time", "home", "away", "result", "ben_loss", "tom_loss", "status"])
 
     for idx, row in results_df.iterrows():
+        if row["status"] != "FINISHED":
+            continue
+
         key = "_".join([row["home_team"], row["away_team"], row["stage"]])
         ben_pred = ben_df[ben_df["key"] == key].copy()
         tom_pred = tom_df[tom_df["key"] == key].copy()
