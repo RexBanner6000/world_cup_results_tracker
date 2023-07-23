@@ -124,6 +124,9 @@ def main():
     st.text(f"Ben: {ben_score[-1]:.3f}")
     st.text(f"Tom: {tom_score[-1]:.3f}")
 
+    display_df = display_df.sort_values("time", ascending=False)
+    display_df.set_index("time", inplace=True)
+
     st.pyplot(fig=fig)
     st.dataframe(display_df)
 
