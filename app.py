@@ -11,6 +11,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 COL_NAMES = ["home_team", "away_team", "stage", "score_home", "score_away", "status", "timestamp"]
+name_map = {
+    "Ireland": "Republic of Ireland"
+}
 
 
 def connect_to_db(url: str) -> psycopg2.extensions.connection:
@@ -63,6 +66,13 @@ def calculate_outcome(home_score: int, away_score: int) -> int:
         return 2
 
 
+def remap_name(team_name: str) -> str:
+    if name_map.get(team_name):
+        return name_map[team_name]
+    else:
+        return team_name
+
+
 def main():
     conn = connect_to_db(os.environ["DATABASE_URL"])
     results_df = get_results(conn)
@@ -87,9 +97,15 @@ def main():
         if row["status"] != "FINISHED":
             continue
 
-        key = "_".join([row["home_team"], row["away_team"], row["stage"]])
+        home_team = remap_name(row["home_team"])
+        away_team = remap_name(row["away_team"])
+
+        key = "_".join([home_team, away_team, row["stage"]])
         ben_pred = ben_df[ben_df["key"] == key].copy()
         tom_pred = tom_df[tom_df["key"] == key].copy()
+
+        if len(ben_pred) == 0:
+            a = 0
 
         ben_y = np.array(ben_pred[["p_team1_win", "p_team2_win", "p_draw"]]).reshape(-1)
         tom_y = np.array(tom_pred[["p_team1_win", "p_team2_win", "p_draw"]]).reshape(-1)
@@ -101,8 +117,8 @@ def main():
 
         display_df.loc[len(display_df)] = [
             row["timestamp"],
-            row["home_team"],
-            row["away_team"],
+            home_team,
+            away_team,
             f"{row['score_home']}-{row['score_away']}",
             log_loss(ben_y, outcome),
             log_loss(tom_y, outcome),
@@ -119,7 +135,9 @@ def main():
 
     latest_result = results_df[results_df["timestamp"] == results_df["timestamp"].max()]
 
-    st.text(f"Latest update: {latest_result.home_team.to_string(index=False)} vs {latest_result.away_team.to_string(index=False)} {latest_result.timestamp.to_string(index=False)}")
+    st.text(
+        f"Latest update: {latest_result.home_team.to_string(index=False)} vs {latest_result.away_team.to_string(index=False)} {latest_result.timestamp.to_string(index=False)}"
+    )
 
     st.text(f"Ben: {ben_score[-1]:.3f}")
     st.text(f"Tom: {tom_score[-1]:.3f}")
