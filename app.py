@@ -88,15 +88,6 @@ def main():
             continue
 
         key = "_".join([row["home_team"], row["away_team"], row["stage"]])
-
-        if (ben_df["key"] == key).sum() == 0:
-            home_team, home_score = (row["home_team"], row["home_score"])
-            row["home_team"] = row["away_team"]
-            row["away_team"] = home_team
-            row["home_score"] = row["away_score"]
-            row["away_score"] = home_score
-            key = "_".join([row["home_team"], row["away_team"], row["stage"]])
-
         ben_pred = ben_df[ben_df["key"] == key].copy()
         tom_pred = tom_df[tom_df["key"] == key].copy()
 
