@@ -91,7 +91,7 @@ def main():
     ben_score = [0]
     tom_score = [0]
 
-    display_df = pd.DataFrame(columns=["time", "home", "away", "result", "ben_loss", "tom_loss", "status"])
+    display_df = pd.DataFrame(columns=["time", "home", "away", "stage", "result", "ben_loss", "tom_loss", "status"])
 
     for idx, row in results_df.iterrows():
         if row["status"] != "FINISHED":
@@ -124,6 +124,7 @@ def main():
             row["timestamp"],
             home_team,
             away_team,
+            row["stage"],
             f"{row['score_home']}-{row['score_away']}",
             log_loss(ben_y, outcome),
             log_loss(tom_y, outcome),
