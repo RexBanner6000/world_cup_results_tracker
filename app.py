@@ -101,11 +101,16 @@ def main():
         away_team = remap_name(row["away_team"])
 
         key = "_".join([home_team, away_team, row["stage"]])
+        if len(ben_df[ben_df["key"] == key]) == 0:
+            key = "_".join([away_team, home_team, row["stage"]])
+            away_score, home_score = (row["score_away"], row["score_home"])
+            row["score_home"] = away_score
+            row["score_away"] = home_score
+            home_team, away_team = (away_team, home_team)
+            key = "_".join([home_team, away_team, row["stage"]])
+
         ben_pred = ben_df[ben_df["key"] == key].copy()
         tom_pred = tom_df[tom_df["key"] == key].copy()
-
-        if len(ben_pred) == 0:
-            a = 0
 
         ben_y = np.array(ben_pred[["p_team1_win", "p_team2_win", "p_draw"]]).reshape(-1)
         tom_y = np.array(tom_pred[["p_team1_win", "p_team2_win", "p_draw"]]).reshape(-1)
