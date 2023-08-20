@@ -79,17 +79,21 @@ def main():
 
     tom_df = read_predictions(Path("tghaynes_predictions.csv"))
     ben_df = read_predictions(Path("bpowell_predictions.csv"))
+    tom_cpu_df = read_predictions(Path("cpu_predictions.csv"))
 
     tom_df["stage"] = tom_df["group"].apply(get_stage)
     ben_df["stage"] = tom_df["group"].apply(get_stage)
+    tom_cpu_df["stage"] = tom_df["group"].apply(get_stage)
 
     ben_df["key"] = make_match_keys(ben_df)
     tom_df["key"] = make_match_keys(tom_df)
+    tom_cpu_df["key"] = make_match_keys(tom_cpu_df)
 
     st.title("RSS Prediction Results")
 
     ben_score = [0]
     tom_score = [0]
+    tom_cpu_score = [0]
 
     display_df = pd.DataFrame(columns=["time", "home", "away", "stage", "result", "ben_loss", "tom_loss", "status"])
 
@@ -111,14 +115,17 @@ def main():
 
         ben_pred = ben_df[ben_df["key"] == key].copy()
         tom_pred = tom_df[tom_df["key"] == key].copy()
+        tom_cpu_pred = tom_cpu_df[tom_cpu_df["key"] == key].copy()
 
         ben_y = np.array(ben_pred[["p_team1_win", "p_team2_win", "p_draw"]]).reshape(-1)
         tom_y = np.array(tom_pred[["p_team1_win", "p_team2_win", "p_draw"]]).reshape(-1)
+        tom_cpu_y = np.array(tom_cpu_pred[["p_team1_win", "p_team2_win", "p_draw"]]).reshape(-1)
 
         outcome = calculate_outcome(row["score_home"], row["score_away"])
 
         ben_score.append(log_loss(ben_y, outcome) + ben_score[-1])
         tom_score.append(log_loss(tom_y, outcome) + tom_score[-1])
+        tom_cpu_score.append(log_loss(tom_cpu_y, outcome) + tom_score[-1])
 
         display_df.loc[len(display_df)] = [
             row["timestamp"],
@@ -134,6 +141,7 @@ def main():
     fig, ax = plt.subplots()
     plt.plot(ben_score, label="ben")
     plt.plot(tom_score, label="tom")
+    plt.plot(tom_cpu_score, label="tom-cpu")
     plt.xlabel("Number of results")
     plt.ylabel("Score")
     plt.legend()
